@@ -882,7 +882,7 @@ h2.section-title {
     }
 
     /* 表單送出提示 */
-    #toast {
+    .toast {
       visibility: hidden;
       min-width: 250px;
       margin-left: -125px;
@@ -900,7 +900,7 @@ h2.section-title {
       opacity: 0;
       transition: opacity 0.5s, bottom 0.5s;
     }
-    #toast.show {
+    .toast.show {
       visibility: visible;
       opacity: 1;
       bottom: 50px;
