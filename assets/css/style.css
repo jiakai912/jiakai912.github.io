@@ -881,31 +881,6 @@ h2.section-title {
       transform: translateY(-2px);
     }
 
-    /* 表單送出提示 */
-    .toast {
-      visibility: hidden;
-      min-width: 250px;
-      margin-left: -125px;
-      background-color: #4BB543;
-      color: #fff;
-      text-align: center;
-      border-radius: 8px;
-      padding: 16px;
-      position: fixed;
-      z-index: 1000;
-      left: 50%;
-      bottom: 30px;
-      font-weight: 600;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-      opacity: 0;
-      transition: opacity 0.5s, bottom 0.5s;
-    }
-    .toast.show {
-      visibility: visible;
-      opacity: 1;
-      bottom: 50px;
-    }
-
 
     /* RWD */
     @media (max-width: 880px) {
