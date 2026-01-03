@@ -221,6 +221,7 @@ nav a {
 .card h4 { margin: 12px; font-size: 18px; }
 .card p { margin: 0 12px 12px 12px; color: var(--muted); font-size: 14px; line-height: 1.5; }
 
+
 /* More Button */
 .more-btn {
   margin: 12px;
@@ -505,7 +506,7 @@ h2.section-title {
   border-radius: var(--radius);
 }
 .card h4 { margin: 10px 0 6px; font-size: 18px; }
-.card p { margin: 0; font-size: 14px; line-height: 1.6; color:#6f4e37; }
+.card p { margin: 0; font-size: 16px; line-height: 1.8; color:#6f4e37; }
 
 .btn-black {
   display: inline-block;
